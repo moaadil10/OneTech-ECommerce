@@ -197,7 +197,7 @@
 
 							<div class="main_nav_menu ml-auto">
 								<ul class="standard_dropdown main_nav_dropdown">
-								<center>	<li><a href="Home.aspx">Home<i class="fas fa-chevron-down"></i></a></li>
+								<center>	<li><a href="UserPage.aspx">Home<i class="fas fa-chevron-down"></i></a></li>
 									<li><a href="ViewCatogary.aspx">Category View<i class="fas fa-chevron-down"></i></a></li>
 									<li><a href="AddCatogary.aspx">Add Category<i class="fas fa-chevron-down"></i></a></li>
 									<li><a href="ViewProduct.aspx">Product View<i class="fas fa-chevron-down"></i></a></li>

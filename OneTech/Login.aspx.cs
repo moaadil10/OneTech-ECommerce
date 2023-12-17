@@ -35,7 +35,7 @@ namespace OneTech
                 {
                     Label1.Visible = true;
                     Label1.Text = "Admin";
-                    Response.Redirect("AddCatogary.Aspx");
+                    Response.Redirect("AddCatogary.aspx");
                 }
                 else if (logType == "user")
                 {

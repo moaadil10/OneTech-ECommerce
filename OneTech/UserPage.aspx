@@ -63,7 +63,7 @@
     <tr>
         <td class="auto-style1">&nbsp;</td>
         <td class="auto-style2">
-            <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand">
+            <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand" BorderColor="Blue" CellPadding="30" CellSpacing="40" RepeatColumns="3" RepeatDirection="Horizontal">
                 <ItemTemplate>
                     <asp:ImageButton ID="ImageButton1" runat="server" Height="214px" ImageUrl='<%# Eval("CatogaryImage") %>' />
                     <br />
@@ -72,7 +72,7 @@
                     <br />
                     <br />
 <%--                    <asp:Label ID="Label3" runat="server" Text='<%# Eval("CatogaryId") %>'></asp:Label>--%>
-                    <asp:Label ID="Label3" runat="server" Text='<%# Eval("CatogaryId") %>'></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text='<%# Eval("CatogaryId") %>' Visible="False"></asp:Label>
 
                 </ItemTemplate>
             </asp:DataList>

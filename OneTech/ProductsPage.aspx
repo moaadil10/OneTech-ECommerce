@@ -34,7 +34,7 @@
         <tr>
             <td class="auto-style3">&nbsp;</td>
             <td>
-                <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand" RepeatColumns="4">
+                <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand" RepeatColumns="3" BorderColor="Blue" CellPadding="20" CellSpacing="40">
                     <ItemTemplate>
                         <table class="w-100">
                             <tr>

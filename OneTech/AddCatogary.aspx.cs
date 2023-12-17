@@ -20,8 +20,8 @@ namespace OneTech
             string image = "~/images/" + FileUpload1.FileName;
             FileUpload1.SaveAs(MapPath(image));
 
-            string ins = "insert into Catogary values ('" + TextBox1.Text + "','" + TextBox2.Text + "' ,'" + image + "' ,'" + DropDownList1.SelectedItem.Value + "')";
-            int i = obj.Fn_Nonquery(ins);
+            string insert = "insert into Catogary values ('" + TextBox1.Text + "','" + TextBox2.Text + "' ,'" + image + "' ,'" + DropDownList1.SelectedItem.Value + "')";
+            int i = obj.Fn_Nonquery(insert);
 
             if (i != 0)
             {
